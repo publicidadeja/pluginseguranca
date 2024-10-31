@@ -1,0 +1,40 @@
+.secure-dacast-protected-content {
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.secure-dacast-watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    opacity: 0.2;
+    font-size: 24px;
+    color: #000;
+    pointer-events: none;
+    z-index: 9999;
+    white-space: nowrap;
+}
+
+.secure-dacast-login-required {
+    max-width: 400px;
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+}
+
+.secure-dacast-access-denied {
+    max-width: 400px;
+    margin: 2em auto;
+    padding: 2em;
+    border: 1px solid #ff0000;
+    border-radius: 4px;
+    background: #fff5f5;
+    color: #ff0000;
+    text-align: center;
+}
